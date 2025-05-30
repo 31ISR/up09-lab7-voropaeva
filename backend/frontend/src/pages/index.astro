@@ -1,6 +1,121 @@
 ---
+// src/pages/index.astro
 import Layout from '../layouts/Layout.astro';
+
 ---
-<Layout title="чивава">
-  <p>контент в макете</p>
+
+<Layout>
+  <h1>THE BLOG</h1>
+
+  <section>
+    <h2>Recent blog posts</h2>
+    
+    <div class="posts-container">
+      <article class="post">
+        <p class="post-meta">Olivia Rhye - 1 Jan 2023</p>
+        <h3>UK review presentations</h3>
+        <p class="post-content">How do you create content for presentations that were your colleagues and impress your managers?</p>
+        
+        <div class="post-image-container">
+          <img src="../public/images/p1.PNG" alt="фотка" class="post-image" />
+        </div>
+
+
+        <div class="tags">
+          <span class="tag">Design</span>
+          <span class="tag">Research</span>
+          <span class="tag">Presentation</span>
+        </div>
+      </article>
+
+      <article class="post">
+        <p class="post-meta">Olivia Rhye - 1 Jan 2023</p>
+        <h3>Grid system for better Design User Interface</h3>
+        <p class="post-content">
+A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.</p>
+        
+        <div class="post-image-container">
+          <img src="../public/images/p2.PNG" alt="фотка" class="post-image" />
+        </div>
+        
+        <div class="tags">
+          <span class="tag">Environment</span>
+          <span class="tag">Research</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+
+
+
+
+  <section>
+    <h2>All blog posts</h2>
+    
+    <div class="posts-container">
+      <article class="post">
+        <p class="post-meta">Olivia Rhye - 1 Jan 2023</p>
+        <h3>Bill Walsh leadership lessons</h3>
+        <p class="post-content">A grid system is a design tool used to display content in a marketplace. It is a special device called horizontal lens that creates a positive intersection of points, which can be used to help you go greater space elements.</p>
+        
+        <div class="post-image-container">
+          <img src="../public/images/p3.PNG" alt="фотка" class="post-image" />
+        </div>
+        
+        <div class="tags">
+          <span class="tag">Design</span>
+          <span class="tag">Interface</span>
+        </div>
+      </article>
+
+      <article class="post">
+        <p class="post-meta">Alec Whitten - 1 Jan 2023</p>
+        <h3>Bill Walsh leadership lessons</h3>
+        <p class="post-content">Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+        
+        <div class="post-image-container">
+          <img src="../public/images/p4.PNG" alt="фотка" class="post-image" />
+        </div>
+        
+        <div class="tags">
+          <span class="tag">Leadership</span>
+          <span class="tag">Management</span>
+        </div>
+      </article>
+
+      <article class="post">
+        <p class="post-meta">Demi Wilkinson - 1 Jan 2023</p>
+        <h3>PM mental models</h3>
+        <p class="post-content">Mental models are simple expressions of complex processes or relationships.</p>
+        
+        <div class="post-image-container">
+          <img src="../public/images/p5.PNG" alt="фотка" class="post-image" />
+        </div>
+        
+        <div class="tags">
+          <span class="tag">Product</span>
+          <span class="tag">Research</span>
+          <span class="tag">Frameworks</span>
+        </div>
+      </article>
+
+      <article class="post">
+        <p class="post-meta">Candice Wu - 1 Jan 2023</p>
+        <h3>What Is Wireframing?</h3>
+        <p class="post-content">Introduction to Wireframing and its Principles. Learn from the best in the industry.</p>
+        
+        <div class="post-image-container">
+          <img src="../public/images/p6.PNG" alt="фотка" class="post-image" />
+        </div>
+        
+        <div class="tags">
+          <span class="tag">Design</span>
+          <span class="tag">Research</span>
+        </div>
+      </article>
+    </div>
+  </section>
 </Layout>
